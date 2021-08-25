@@ -1,0 +1,4 @@
+51c51
+< const U128_MAX = BigInt(2) ** BigInt(128) - BigInt(1);
+---
+> const U128_MAX = BigInt(340282366920938463463374607431768211455);

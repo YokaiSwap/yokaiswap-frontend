@@ -1,0 +1,16 @@
+{
+  "short_name": "YokaiSwap",
+  "name": "YokaiSwap",
+  "description": "Farm YOK with Yokai LP Tokens",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "256x256"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FF4342",
+  "background_color": "#ffffff"
+}
