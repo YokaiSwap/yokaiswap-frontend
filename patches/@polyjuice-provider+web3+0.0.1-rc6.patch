@@ -1,0 +1,12 @@
+diff --git a/node_modules/@polyjuice-provider/web3/lib/providers.js b/node_modules/@polyjuice-provider/web3/lib/providers.js
+index bd2eb09..0017be1 100644
+--- a/node_modules/@polyjuice-provider/web3/lib/providers.js
++++ b/node_modules/@polyjuice-provider/web3/lib/providers.js
+@@ -106,7 +106,6 @@ class PolyjuiceHttpProvider {
+                     const _signature = await this.signer.sign_with_metamask(message, from);
+                     const signature = this.godwoker.packSignature(_signature);
+                     const tx_hash = await this.godwoker.gw_submitL2Transaction(polyjuice_tx, signature);
+-                    await this.godwoker.waitForTransactionReceipt(tx_hash);
+                     const res = {
+                         jsonrpc: payload.jsonrpc,
+                         id: payload.id,

@@ -6,7 +6,7 @@
     "node": ">=14"
   },
   "scripts": {
-    "postinstall": "sh patches/patch-all.sh",
+    "postinstall": "patch-package",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "CI=false react-scripts build",
@@ -80,6 +80,8 @@
     "@types/styled-system": "^5.1.10",
     "eslint": "^7.26.0",
     "husky": "4.3.5",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
     "prettier": "^2.3.0",
     "source-map-explorer": "^2.5.2",
     "ts-node": "^9.1.1"
