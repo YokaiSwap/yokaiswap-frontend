@@ -25,3 +25,7 @@ yarn start
 ```sh
 yarn build
 ```
+
+---
+
+forked from [pancakeswap/pancake-frontend](https://github.com/pancakeswap/pancake-frontend)
